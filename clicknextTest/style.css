@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;900&family=Sarabun:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;900&family=Poppins:wght@500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+html{
+    position: absolute;
+    font-size: calc(58% + 0.8vmin);
+}
+
+main{
+    margin: 0 auto;
+}
+
+img{
+    width: 35%;
+    object-fit: cover;
+}
+
+.content{
+    background-color: #ffffff;
+    border: 0.063rem none;
+    height: 241.25rem;
+    width: 90rem;
+    top: 12.5rem;
+}
+
+.header-info{
+    position: absolute;
+    width: 71.25rem;
+    height: 51.313rem;
+    background: linear-gradient(24.25deg, #0b033e -8.36%, #1d2080 55.39%, #89E8FD 115.96%);
+    font-family: 'Noto Sans Thai';
+    font-style: normal;
+    left: 9.375rem;
+}
+
+.imgbg1{
+    position: absolute;
+    right: 0rem;
+    width: auto;
+    height: 38.5rem;
+}
+
+.imgbg2{
+    position: absolute;
+    left: 0rem;
+    top: 17.5rem;
+    width: 71.25rem;
+    height: 21.75rem;
+}
+
+.header-title{
+    position: absolute;
+    left: 2.957rem;
+    top: 1.25rem;
+    font-size: 3.125rem;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    top: 1.25rem;
+}
+
+.sec{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 3.125rem;
+    color: #FFFFFF;
+    top: 3.125rem;
+}
+
+.header-title1{
+    position: absolute;
+    left: 3.086rem;
+    top: 9.375rem;
+    font-weight: 400;
+    font-size: 1.75rem;
+    background: linear-gradient(90.14deg, #14DB60 -2.56%, #AAFFCB 115.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-title2{
+    position: absolute;
+    left: 3.015rem;
+    top: 12.5rem;
+    font-weight: 700;
+    font-size: 2.813rem;
+    line-height: 3.375rem;
+    background: linear-gradient(90.14deg, #14DB60 -2.56%, #AAFFCB 115.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-title3{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 3.151rem;
+    top: 18.125rem;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 3.375rem;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.header-title4{
+    position: absolute;
+    left: 2.957rem;
+    top: 25rem;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 3.375rem;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.header-title5{
+    position: absolute;
+    left: 3.019rem;
+    top: 28.438rem;
+    font-weight: 400;
+    font-size: 1.188rem;
+    line-height: 1.25rem;
+    color: #BAD0F2
+}
+
+.logo{
+    width: 48.463rem;
+    height: 2.041rem;
+}
+
+.down-header{
+    position: absolute;
+    width: 71.25rem;
+    height: 12.25rem;
+    top: 39.063rem;
+    left: 9.375rem;
+    background: linear-gradient(183.65deg, #0B0F17 -12.4%, rgba(0, 13, 56, 0) 230.51%);
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.down-header1{
+    position: absolute;
+    width: 71.25rem;
+    height: 12.25rem;
+    top: 1.25rem;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+#login_button {
+    border-radius: 0.5rem;
+    width: 18.75rem;
+    height: 3.618rem;
+    top: 6.883rem;
+    left: 26.25rem;
+    font-size: 1.625rem;
+    font-weight: 700;
+    background: linear-gradient(115.71deg, #0BB64C 2.75%, #27D96B 79.77%);
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.img_zone3{
+    position: absolute;
+    left: 12.5rem;
+    top: 55rem;
+}
+
+.middle{
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    color: #1D1A73;
+}
+
+.middle-object{
+    padding-left: 1.5rem;
+    font-weight: 400;
+    font-size: 1.438rem;
+    line-height: 1.875rem;
+    color: #262E3F;
+}
+
+.bg_zone4{
+    position: absolute;
+    width: 71.25rem;
+    height: 52.313rem;
+    left: 9.375rem;
+    top: 86.25rem;
+}
+
+.bg_zone4-1{
+    position: absolute;
+    width: 71.25rem;
+    height: 52.313rem;
+    left: 9.375rem;
+    top: 86rem;
+}
+
+.mainspeaker{
+    position: relative;
+    left: 3.75rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    background: linear-gradient(111.88deg, #0E044B -24.36%, #2C309B 66.53%, #89E8FD 142.57%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 1.875rem;
+}
+
+.mainspeaker h6{
+    margin-left: 1.875rem;
+}
+
+.rectangle-307{
+    position: absolute;
+    height: fit-content;
+    width: fit-content; 
+}
+
+.main-speaker{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(21.875rem, 1fr));
+}
+
+.main-speaker img{
+    height: 11.625rem;
+    width: 9.188rem;
+}
+
+.textnoto-purple{
+    color: #1F2883;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.textnoto-blue{
+    color: #359EFF;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.speaker{
+    text-align: center;
+    padding-top: 3.125rem;
+}
+
+
+h1, p {
+    display: inline;
+ }
+
+h2{
+    font-size: 1.5rem;
+    color: #BAD0F2;
+    display: inline;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.625rem;
+    display: inline;
+}
+
+h4{
+    font-size: 1.25rem;
+    display: inline;
+    font-weight: 400;
+    color: #BAD0F2;
+    font-style: normal;
+}
+
+h5{
+    font-size: 1.125rem;
+    display: inline;
+}
+
+h6{
+    font-size: 2.25rem;
+    display: inline;
+    font-weight: 600;
+}
+
+#health{
+    color: #0CC553;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-image: url(image/bullet.png);
+}
+
+.rectangle-218{
+    /* box-sizing: border-box; */
+    position: absolute;
+    width: 67.75rem;
+    height: 42rem;
+    left: 11.25rem;
+    top: 140.625rem;
+    background: #EEF6FF;
+    border: 0.063rem solid #FFFFFF;
+    border-radius: 0.938rem;
+}
+
+.rectangle-308{
+    position: absolute;
+    height: 2.75rem;
+    width: 0.5rem; 
+    top: 0.188rem;
+    left: -1.563rem;
+}
+
+.schedule{
+    position: relative;
+    left: 3.75rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    background: linear-gradient(111.88deg, #0E044B -24.36%, #2C309B 66.53%, #89E8FD 142.57%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 1.125rem;
+}
+
+.line{
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 900;
+    top: 4.375rem;
+}
+
+.line1{
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 900;
+    top: 19.063rem;
+}
+
+.line2{
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 900;
+    top: 33.75rem;
+}
+
+.rectangle-174{
+    position: absolute;
+    width: 19.063rem;
+    height: 2.75rem;
+    left: 1.563rem;
+    top: 7.375rem;
+    background: #0CC553;
+    border-radius: 6.25rem;
+    padding-top: 0.313rem;
+}
+
+.group417-object{
+    position: absolute;
+    width: 53.125rem;
+    height: 0.688rem;
+    left: 3.125rem;
+    top: 11.875rem;
+    font-weight: 400;
+    font-size: 1.438rem;
+    line-height: 1.25rem;
+    color: #262E3F;
+}
+
+.rectangle-325{
+    position: absolute;
+    width: 19.063rem;
+    height: 2.75rem;
+    left: 3.644rem;
+    top: 8.75rem;
+    background: #0CC553;
+    border-radius: 100px;
+}
+
+.rectangle-293{
+    position: absolute;
+    width: 19.063rem;
+    height: 2.75rem;
+    left: 1.563rem;
+    top: 21.875rem;
+    background: #0CC553;
+    border-radius: 6.25rem;
+}
+
+.group419-object{
+    position: absolute;
+    width: 53.125rem;
+    height: 0.688rem;
+    left: 3.125rem;
+    top: 26.563rem;
+    font-weight: 400;
+    font-size: 1.438rem;
+    line-height: 1.25rem;
+    color: #262E3F;
+}
+
+.rectangle-305{
+    box-sizing: border-box;
+    position: absolute;
+    width: 67.75rem;
+    height: 16rem;
+    left: 11.25rem;
+    top: 160.938rem;
+    background: #EEF6FF;
+    border: 0.063rem solid #FFFFFF;
+    border-radius: 0.938rem;
+}
+
+.rectangle-306{
+    position: absolute;
+    width: 19.063rem;
+    height: 2.75rem;
+    left: 0.625rem;
+    top: 34.375rem;
+    background: #0CC553;
+    border-radius: 6.25rem;
+}
+
+.rectangle-177{
+    position: absolute;
+    width: 13.313rem;
+    height: 2.75rem;
+    left: 1.875rem;
+    top: 36.875rem;
+    background: #0CC553;
+    border-radius: 6.25rem;
+}
+
+.time1{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.01em;
+    left: 1.25rem;
+    color: #C8FFD4;
+}
+
+.time2{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.01em;
+    left: 1.25rem;
+    color: #C8FFD4;;
+    top: 0.313rem;
+}
+
+.time3{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.01em;
+    left: 1.25rem;
+    color: #ffffff;;
+    top: 0.313rem;
+}
+
+#dinner{
+    position: absolute;
+    width: 53.125rem;
+    height: 0.688rem;
+    left: 17.5rem;
+    top: 37.688rem;
+    font-weight: 400;
+    font-size: 1.438rem;
+    line-height: 1.25rem;
+    color: #262E3F;
+}
+
+.rectangle-178{
+    position: absolute;
+    width: 67.75rem;
+    height: 18.125rem;
+    left: 11.25rem;
+    top: 185.625rem;
+    background: linear-gradient(230.87deg, #5D97E3 -7.19%, #0C2192 66.6%);
+    border-radius: 1.25rem;
+}
+
+.ic_location{
+    position: absolute;
+    width: 5.104rem;
+    height: 5.104rem;
+    left: 3.125rem;
+    top: 3.125rem;
+}
+
+#pos1{
+    position: relative;
+    top: 3.75rem;
+    left: 10.625rem;
+    font-weight: 700;
+    font-size: 2.375rem;
+    line-height: 0.875rem;
+    color: #ffffff;
+}
+
+#pos2{
+    position: relative;
+    top: 7.188rem;
+    left: -16.563rem;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 0.875rem;
+    color: #ffffff;
+}
+
+.rectangle-299{
+    position: absolute;
+    width: 21.5rem;
+    height: 4.25rem;
+    left: 10.625rem;
+    top: 10.625rem;
+    background: #359EFF;;
+    border-radius: 2.813rem;
+}
+
+.map{
+    position: absolute;
+    font-size: 1.875rem;
+    font-weight: 700;
+    left: 1.875rem;
+    line-height: 4.063rem;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;;
+}
+
+.classroom1{
+    position: absolute;
+    width: 19rem;
+    height: 15.625rem;
+    right: 1.25rem;
+    top: 1.25rem;
+}
+
+.rectangle-310{
+    position: absolute;
+    width: 70rem;
+    height: fit-content;
+    left: -5.625rem;
+    top: -4rem;
+}
+
+.rewardpeople{
+    position: relative;
+    left: 6.25rem;
+    top: 5rem;
+}
+
+.rewardr h1{
+    font-size: 2rem;
+    display: inline;
+    font-weight: 700;
+    background: linear-gradient(111.88deg, #0E044B -24.36%, #2C309B 66.53%, #89E8FD 142.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+.img_zone7{
+    position: absolute;
+    width: 71.875rem;
+    height: 71.875rem;
+    left: 9.375rem;
+    top: 204.375rem;
+}
+
+.content-reward{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.reward{
+    position: relative;
+    padding: 8rem 8.25rem;
+    margin-left: -2rem;
+    text-align: left;
+}
+
+.reward img{
+    position: absolute;
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+
+#pic1{
+    width: 5.7rem;
+    height: auto;
+}
+
+#pic2{
+    width: 5.7rem;
+    margin: 0.05rem -1rem;
+}
+
+#pic3{
+    width: 10.5rem;
+    margin: 1rem -3rem;
+}
+
+
+.reward-text{
+    position: absolute;
+    padding-top: 6rem;
+}
+
+.reward-text1{
+    position: absolute;
+    padding-top: 6.4rem;
+    margin: -0.5rem;
+}
+
+.reward-text2{
+    position: absolute;
+    padding-top: 8.9rem;
+    margin: -3.2rem;
+}
+
+
+.textreward{
+    color: #262E3F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+
+.textrewardpp{
+    color: #6F7788;
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+
+.size64{
+    color: #6E7788;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.downpage{
+    position: absolute;
+    width: 71.25rem;
+    height: 12.25rem;
+    top: 231.25rem;
+    left: 9.375rem;
+    text-align: center;
+    background: linear-gradient(360deg, #ebf4fd 4.84%, #f4fafd 13.78%, rgba(255, 255, 255, 0.96) 52.31%, rgba(255, 255, 255, 0) 60.81%);
+}
+
+.downpage1{
+    position: absolute;
+    width: 71.25rem;
+    height: 12.25rem;
+    top: 5rem;
+    text-align: center;
+}
+
+.downpage h2{
+    font-weight: 700;
+    font-size: 1.625rem;
+    color: #0C2292;
+}
+
+.downpage h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #6E7788;
+}
+
+.downpage h4{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #262E3F;
+}
+
+#login_button1{
+    border-radius: 0.5rem;
+    border: none;
+    width: 31.25rem;
+    height: 3.618rem;
+    top: 6.883rem;
+    left: 26.25rem;
+    font-size: 1.625rem;
+    font-weight: 700;
+    background: linear-gradient(115.71deg, #0BB64C 2.75%, #27D96B 79.77%);
+    color: #FFFFFF;
+}
+
+.contact{
+    position: relative;
+    font-weight: 500;
+    font-size: 1.375rem;
+    top: 246.875rem;
+    color: #6E7788;
+    left: 18.75rem;
+}
+
+#ic_phone{
+    position: absolute;
+    width: 2.502rem;
+    height: 2.502rem;
+    left: 22.5rem;
+    top: 0rem;
+}
+
+#nan{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #6E7788;
+    
+}
+
+#nan1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #3138A0;
+}
+
+#tel{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #3138A0;
+}
+
+
